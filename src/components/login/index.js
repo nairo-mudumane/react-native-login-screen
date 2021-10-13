@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, ScrollView, ImageBackground } from 'react-native';
 import Banner from './Banner';
-import Form from './Form';
+import LoginForm from './Form';
 // import { Icon } from 'native-base';
 import { loginStyles } from './styles';
 
@@ -12,7 +12,7 @@ export default function Login() {
       showsVerticalScrollIndicator={false}
     >
       <Banner />
-      <View styles={loginStyles.bottomView}>
+      <View style={loginStyles.bottomView}>
         <View style={{ padding: 40 }}>
           <Text style={loginStyles.welcomeText}>Welcome</Text>
           <Text>
@@ -22,6 +22,7 @@ export default function Login() {
               Register now
             </Text>
           </Text>
+          <LoginForm />
         </View>
       </View>
     </ScrollView>

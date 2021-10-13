@@ -40,3 +40,9 @@ export const loginStyles = StyleSheet.create({
     fontSize: 34,
   },
 });
+
+export const formStyles = StyleSheet.create({
+  container: {
+    marginTop: 50,
+  },
+});
