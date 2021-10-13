@@ -28,4 +28,15 @@ export const loginStyles = StyleSheet.create({
     fontWeight: 'bold',
     textTransform: 'uppercase',
   },
+  bottomView: {
+    flex: 1.5,
+    backgroundColor: '#fff',
+    bottom: 50,
+    borderTopStartRadius: 60,
+    borderTopEndRadius: 60,
+  },
+  welcomeText: {
+    color: '#4632A1',
+    fontSize: 34,
+  },
 });
