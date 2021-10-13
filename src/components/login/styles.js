@@ -18,8 +18,7 @@ export const loginStyles = StyleSheet.create({
   },
   titleContainer: {
     backgroundColor: 'rgba(0,0,0,0.6)',
-    width: '100%',
-    height: '100%',
+    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
   },
