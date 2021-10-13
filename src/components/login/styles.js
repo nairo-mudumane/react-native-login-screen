@@ -25,6 +25,7 @@ export const loginStyles = StyleSheet.create({
   title: {
     color: '#fff',
     fontSize: 40,
+    fontWeight: 'bold',
     textTransform: 'uppercase',
   },
 });
